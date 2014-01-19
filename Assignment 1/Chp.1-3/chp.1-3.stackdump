@@ -1,0 +1,9 @@
+Exception: STATUS_INTEGER_DIVIDE_BY_ZERO at eip=0040121F
+eax=00000009 ebx=0028AC5C ecx=00000000 edx=00000000 esi=00000065 edi=00000031
+ebp=0028AC38 esp=0028AC10 program=C:\Users\jcolburn\Documents\NetBeansProjects\Chp.1-3\dist\Debug\Cygwin_4.x_2-Windows\chp.1-3, pid 7520, thread main
+cs=0023 ds=002B es=002B fs=0053 gs=002B ss=002B
+Stack trace:
+Frame     Function  Args
+0028AC38  0040121F (00000001, 0028AC5C, 80010100, 61007F58)
+0028ACF8  61007FB5 (00000000, 0028CD84, 61007120, 00000000)
+End of stack trace
