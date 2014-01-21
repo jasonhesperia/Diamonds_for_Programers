@@ -15,7 +15,7 @@ using namespace std;
 //Execution Starts here!
 int main(int argc, char** argv) 
 {
-    int name_inst,my_name,food_typ,nmbr_typ,adjective_typ,color_typ,animal_typ;
+    string name_inst,my_name,food_typ,nmbr_typ,adjective_typ,color_typ,animal_typ;
     
     cout<<"Type all answers on one line with a space between them.\n";
     cout<<"Your instructors first or last name \n";
@@ -28,25 +28,26 @@ int main(int argc, char** argv)
     cin>>name_inst>>my_name>>food_typ>>nmbr_typ>>adjective_typ>>color_typ>>animal_typ;
     
     cout<<"Dear Instructor ";
-    cout<<name_inst;
+    cout<<name_inst<<','<<endl;
     cout<<"I am sorry that I am unable to turn in my homework at this time."
-            "First, I ate a rotten ";
+            " First, I ate a rotten ";
     cout<<food_typ;
-    cout<<", which made me turn";
+    cout<<", which made me turn ";
     cout<<color_typ;
-    cout<<"and extremely ill."
+    cout<<" and extremely ill.\n"
           "I came down with a fever of ";
     cout<<nmbr_typ;
-    cout<<"Next, my ";
+    cout<<". Next, my ";
     cout<<adjective_typ;
-    cout<<"pet ";
+    cout<<" pet ";
     cout<<animal_typ;
-    cout<<"animal must have smelled the remains of the ";
+    cout<<" must have smelled the remains of the ";
     cout<<food_typ;
-    cout<<"on my homework,because he ate it. I am currently re-writing my"
-            "homework and hope you will accept it late."
+    cout<<" on my homework, because he ate it.\n"
+            "I am currently re-writing my"
+            " homework and hope you will accept it late.\n"
             
-            "Sincerely,";
+            "Sincerely,\n"<<endl;
     cout<<my_name;
     
     
