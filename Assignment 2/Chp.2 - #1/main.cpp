@@ -16,9 +16,10 @@ int main(int argc, char** argv)
 {
     //Declare Variables
     int ounces, mtrc_tons, nmbr_bxs, count_down;
-    char answer;
+    char ans;
 
-    do{
+    do
+    {
         cout<<"Enter the number of ounces your box of cereal is:\n";
         cin>>ounces;
         nmbr_bxs=35273.92/ounces;
@@ -31,12 +32,12 @@ int main(int argc, char** argv)
         cout<<" would be exactly ";
         mtrc_tons=ounces*nmbr_bxs;
         cout<<mtrc_tons;
-        cout<<" ounces of cereal.\n"<<endl;
+        cout<<" ounces of cereal.\n";
         
         //Run Again
         cout<<"Would you like to run again, (y or n)\n";
-        cin>>answer;
-    }while(answer=='y');
+        cin>>ans;
+    }while(ans=='y'||ans=='Y');
    
     return 0;
 }
